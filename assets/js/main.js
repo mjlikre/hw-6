@@ -54,7 +54,7 @@ $(document).ready(function(){
     $('#select-gif').on('click', function(event){
         event.preventDefault();
         var gif = $('#gif-input').val().trim();
-        $('#gif-input').text(" ");
+        $('#gif-input').val("");
         gifList.push(gif);
         
         getButtons();   
